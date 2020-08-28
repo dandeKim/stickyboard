@@ -6,14 +6,21 @@ import loadable from '@loadable/component';
 const RechartsLineChart = loadable(() => import('./RechartsLineChart'));
 const RechartsBarChart = loadable(() => import('./RechartsBarChart'));
 const RechartsComposedChart = loadable(() => import('./RechartsComposedChart'));
-const RechartsMultiLineChart = loadable(() => import('./RechartsMultiLineChart'));
+const RechartsMultiLineChart = loadable(() =>
+    import('./RechartsMultiLineChart')
+);
 const RechartsPieChart = loadable(() => import('./RechartsPieChart'));
 const RechartsAreaChart = loadable(() => import('./RechartsAreaChart'));
 const RechartsRadarChart = loadable(() => import('./RechartsRadarChart'));
 const RechartsScatterChart = loadable(() => import('./RechartsScatterChart'));
 const RechartsTinyChart = loadable(() => import('./RechartsTinyChart'));
 const RechartsTreeMap = loadable(() => import('./RechartsTreeMap'));
-const RechartsStackedBarChart = loadable(() => import('./RechartsStackedBarChart'));
+const RechartsStackedBarChart = loadable(() =>
+    import('./RechartsStackedBarChart')
+);
+const RechartsGithubCalendar = loadable(() =>
+    import('./RechartGithubCalendar')
+);
 
 export default {
     Recharts: [
@@ -71,6 +78,11 @@ export default {
             Name: 'RechartsStackedBarChart',
             Description: 'RechartsStackedBarChart sample',
             Component: RechartsStackedBarChart,
+        },
+        {
+            Name: 'RechartsGithubCalendar',
+            Description: 'RechartsGithubCalendar sample',
+            Component: RechartsGithubCalendar,
         },
     ],
 };
