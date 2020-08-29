@@ -12,11 +12,11 @@ const styles = (theme) => ({
 });
 
 const initialLayout = {
-    lg: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 4, h: 6 }],
-    md: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 4, h: 6 }],
-    sm: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 4, h: 6 }],
-    xs: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 6, h: 6 }],
-    xxs: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 4, h: 6 }],
+    lg: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 10, h: 6 }],
+    md: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 10, h: 6 }],
+    sm: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 10, h: 6 }],
+    xs: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 10, h: 6 }],
+    xxs: [{ i: 'RechartsGithubCalendar', x: 0, y: 0, w: 10, h: 6 }],
 };
 
 const initialBlocks = [{ i: 'RechartsGithubCalendar' }];
